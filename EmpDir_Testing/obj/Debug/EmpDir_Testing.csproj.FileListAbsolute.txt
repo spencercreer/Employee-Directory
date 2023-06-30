@@ -1,0 +1,11 @@
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\bin\Debug\EmpDir_Testing.exe.config
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\bin\Debug\EmpDir_Testing.exe
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\bin\Debug\EmpDir_Testing.pdb
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.csproj.AssemblyReference.cache
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.Properties.Resources.resources
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.csproj.GenerateResource.cache
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.csproj.CoreCompileInputs.cache
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.exe
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.pdb
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.AddEmpForm.resources
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.EmpLstForm.resources
