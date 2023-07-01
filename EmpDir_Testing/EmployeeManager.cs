@@ -11,12 +11,16 @@ namespace EmpDir_Testing
         public string FirstName { get; set; }
         public string LastName { get; set; }
         public string Department { get; set; }
+        public bool IsSalary { get; set;  }
+        public decimal YearlySalary { get; set; }
 
-        public Employee(string firstName, string lastName, string department)
+        public Employee(string firstName, string lastName, string department, bool isSalary, decimal yearlySalary)
         {
             FirstName = firstName;
             LastName = lastName;
             Department = department;
+            IsSalary = isSalary; // false would be hourly
+            YearlySalary = yearlySalary;
         }
     }
 

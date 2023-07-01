@@ -46,6 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MessageManager.cs" />
     <Compile Include="EmployeeManager.cs" />
     <Compile Include="AddEmpForm.cs">
       <SubType>Form</SubType>
@@ -59,6 +60,12 @@
     <Compile Include="EmpLstForm.Designer.cs">
       <DependentUpon>EmpLstForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="EmpInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmpInfoForm.Designer.cs">
+      <DependentUpon>EmpInfoForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="AddEmpForm.resx">
@@ -66,6 +73,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="EmpLstForm.resx">
       <DependentUpon>EmpLstForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmpInfoForm.resx">
+      <DependentUpon>EmpInfoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -92,6 +102,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Cat.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Kitty.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Tiger.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

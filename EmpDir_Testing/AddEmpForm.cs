@@ -26,7 +26,9 @@ namespace EmpDir_Testing
             string firstName = firstNameTb.Text;
             string lastName = lastNameTb.Text;
             string department = departmentLst.Text;
-            Employee newEmployee = new Employee(firstName, lastName, department);
+            bool salary = salaryCb.Checked;
+            decimal yearlySalary = yrSalaryTrackBar.Value;
+            Employee newEmployee = new Employee(firstName, lastName, department, salary, yearlySalary);
 
             // Access the EmployeeList property of the EmployeeManager singleton instance
             List<Employee> employeeList = EmployeeManager.Instance.EmployeeList;

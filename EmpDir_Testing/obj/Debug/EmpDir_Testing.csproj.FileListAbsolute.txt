@@ -9,3 +9,4 @@ C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testi
 C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.pdb
 C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.AddEmpForm.resources
 C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.EmpLstForm.resources
+C:\Users\spenc\source\repos\EmpDir_Testing\EmpDir_Testing\obj\Debug\EmpDir_Testing.EmpInfoForm.resources

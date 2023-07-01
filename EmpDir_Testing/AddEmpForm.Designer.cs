@@ -37,8 +37,11 @@ namespace EmpDir_Testing
             this.departmentLst = new System.Windows.Forms.ListBox();
             this.salaryCb = new System.Windows.Forms.CheckBox();
             this.submitBtn = new System.Windows.Forms.Button();
+            this.titleLbl = new System.Windows.Forms.Label();
+            this.yrSalaryTrackBar = new System.Windows.Forms.TrackBar();
+            this.yearlySalaryLbl = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.yrSalaryTrackBar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,7 +112,7 @@ namespace EmpDir_Testing
             // 
             // submitBtn
             // 
-            this.submitBtn.Location = new System.Drawing.Point(13, 232);
+            this.submitBtn.Location = new System.Drawing.Point(10, 323);
             this.submitBtn.Name = "submitBtn";
             this.submitBtn.Size = new System.Drawing.Size(75, 23);
             this.submitBtn.TabIndex = 8;
@@ -117,30 +120,56 @@ namespace EmpDir_Testing
             this.submitBtn.UseVisualStyleBackColor = true;
             this.submitBtn.Click += new System.EventHandler(this.submitBtn_Click);
             // 
+            // titleLbl
+            // 
+            this.titleLbl.AutoSize = true;
+            this.titleLbl.BackColor = System.Drawing.Color.DarkRed;
+            this.titleLbl.Font = new System.Drawing.Font("Modern No. 20", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.titleLbl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.titleLbl.Location = new System.Drawing.Point(265, 13);
+            this.titleLbl.Name = "titleLbl";
+            this.titleLbl.Size = new System.Drawing.Size(355, 30);
+            this.titleLbl.TabIndex = 10;
+            this.titleLbl.Text = "Add Kitties-R-Us Employee";
+            // 
+            // yrSalaryTrackBar
+            // 
+            this.yrSalaryTrackBar.LargeChange = 200;
+            this.yrSalaryTrackBar.Location = new System.Drawing.Point(112, 233);
+            this.yrSalaryTrackBar.Maximum = 200000;
+            this.yrSalaryTrackBar.Minimum = 10000;
+            this.yrSalaryTrackBar.Name = "yrSalaryTrackBar";
+            this.yrSalaryTrackBar.Size = new System.Drawing.Size(104, 56);
+            this.yrSalaryTrackBar.TabIndex = 11;
+            this.yrSalaryTrackBar.Value = 10000;
+            // 
+            // yearlySalaryLbl
+            // 
+            this.yearlySalaryLbl.AutoSize = true;
+            this.yearlySalaryLbl.Location = new System.Drawing.Point(13, 233);
+            this.yearlySalaryLbl.Name = "yearlySalaryLbl";
+            this.yearlySalaryLbl.Size = new System.Drawing.Size(92, 17);
+            this.yearlySalaryLbl.TabIndex = 12;
+            this.yearlySalaryLbl.Text = "Yearly Salary";
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::EmpDir_Testing.Properties.Resources.Cat;
-            this.pictureBox1.Location = new System.Drawing.Point(252, 42);
+            this.pictureBox1.Location = new System.Drawing.Point(255, 42);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(508, 267);
+            this.pictureBox1.Size = new System.Drawing.Size(343, 247);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 9;
             this.pictureBox1.TabStop = false;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(265, 13);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(210, 17);
-            this.label1.TabIndex = 10;
-            this.label1.Text = "Kitties-R-Us Employee Directory";
-            // 
-            // Form1
+            // AddEmpForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.yearlySalaryLbl);
+            this.Controls.Add(this.yrSalaryTrackBar);
+            this.Controls.Add(this.titleLbl);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.submitBtn);
             this.Controls.Add(this.salaryCb);
@@ -150,8 +179,9 @@ namespace EmpDir_Testing
             this.Controls.Add(this.lastNameLbl);
             this.Controls.Add(this.firstNameTb);
             this.Controls.Add(this.firstNameLbl);
-            this.Name = "Form1";
+            this.Name = "AddEmpForm";
             this.Text = "Form1";
+            ((System.ComponentModel.ISupportInitialize)(this.yrSalaryTrackBar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -169,7 +199,9 @@ namespace EmpDir_Testing
         private System.Windows.Forms.CheckBox salaryCb;
         private System.Windows.Forms.Button submitBtn;
         private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label titleLbl;
+        private System.Windows.Forms.TrackBar yrSalaryTrackBar;
+        private System.Windows.Forms.Label yearlySalaryLbl;
     }
 }
 
